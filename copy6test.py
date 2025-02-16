@@ -49,30 +49,7 @@ class NaukriAutomation:
             "response_mime_type": "text/plain",
         }
         system_instruction = """
-Analyze the following HTML content from a job application chatbot.
-Identify the current question and provide an appropriate response based on the following applicant profile:
-- 3 years of experience in business development
-- Double master of science in business
-- Bachelor of Science
-- knows how to code
-- Handled revenue of 1-10 crores annually
-- Expertise in B2B sales
-- Strong track record in closing deals
-- Achieved 180% of sales targets consistently
-- Managed key account relationships
-- Experience in solution selling
-- Not pursuing any degree currently
-- Male 
-- Single / Unmarried
-- Current CTC - 4-5 LPA
-- expected CTC - 6-7 LPA
-- expected joining - Immediate
-- experience in BDE/BDA years - 3 years
-- Hindi - Native
-- English - Fluent
-- French - Intermediate
-If you do not have the answer to the question, use the best possible answer that you can come up with. 
-If the question asks do you have experience in a particular field, assume that you have experience in that field - regardless of the field. 
+Modify this as needed - don't just install and run the script. That's dangerous you can get hacked.  
 Respond in the following JSON format:
 
 "action": "select" or "input",
